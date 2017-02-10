@@ -1,0 +1,6 @@
+name: GuessNumber
+main: win.luckytain.www.Main
+version: Alpha
+author: LuckyTain
+commands:
+  g:

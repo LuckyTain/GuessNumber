@@ -1,0 +1,18 @@
+Start: "&c[猜数字]开始一盘猜数字游戏!本盘游戏数字范围0-%number%,玩家输入/g guess [数字]即可开始猜数字"
+too small: "&c[猜数字]你猜的数字太小了"
+too large: "&c[猜数字]你猜的数字太大了"
+win: "&c[猜数字]恭喜你猜中了！"
+Server_win: "&c[猜数字]恭喜%player%猜中了数字!"
+no start: "还没开盘呢"
+reload: "重载完毕"
+# 以上为语言设置 %player%变量仅支持Start 支持颜色代码。
+# 以下为奖励设置
+Reward:
+  enable: true
+  # 是否开启奖励 包括EXP奖励和后台指令奖励
+  exp: 10
+  # 经验奖励  不奖励填0
+Console:
+# 下面按格式填写奖励的后台指令 支持多个  不用加/  %player%为玩家名字的变量 可无限多个   注意是后台指令
+- give %player% 1 1
+- give %player% 2 1
